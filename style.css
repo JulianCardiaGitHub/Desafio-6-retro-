@@ -1,0 +1,167 @@
+/*#000382 color azul
+  #1084d0 color celeste
+  #c0c0c0 color gris*/
+
+body {
+  font-family: Nanum Gothic Coding;
+  background-color: #008080;
+  color: #000;
+  margin: 40px;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+main {
+  width: 100%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+h1 {
+  border-right: 8px solid #000;
+  border-bottom: 8px solid #000;
+  border-top: solid white 1px;
+  border-left: solid white 1px;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 1px 3px 4px rgb(15, 240, 210);
+  color: #fff;
+  background-color: #000382;
+  font-variant: small-caps;
+}
+
+fieldset {
+ box-shadow:2px 4px 6px black ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-right: 8px solid #000;
+  border-bottom: 8px solid #000;
+  border-top: solid white 1px;
+  border-left: solid white 1px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 15px;
+  background-color: #c0c0c0;
+}
+
+legend {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  background-color: #1084d0;
+  text-shadow: 1px 3px 4px black;
+  border: solid #c0c0c0 1px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+label {
+  font-weight: bold;
+  text-shadow: #000000 2px;
+}
+
+button {
+  box-shadow: 2px 4px 6px black ;
+  font-family: Nanum Gothic Coding;
+  background-color: #c0c0c0;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  margin: 10px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-top: solid white 1px;
+  border-left: solid white 1px;
+}
+
+button:hover {
+  border-style: dotted;
+}
+
+.campo {
+  text-align: center;
+}
+
+.botones {
+  text-align: center;
+}
+.titulo {
+  font-size: 700;
+}
+.datos-per {
+  border: solid 3px blak;
+}
+fieldset:hover {
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  border-top: solid black 6px;
+  border-left: solid black 6px;
+}
+.dp {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+  justify-content: space-around;
+  align-self: auto;
+}
+.dc {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: space-around;
+  align-self: auto;
+}
+textarea {
+  margin-right: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+  resize: vertical;
+}
+
+#lbl-nombre:focus {
+  color: #ffffff;
+  background-color: #000382;
+}
+#lbl-apellido:focus {
+  color: #ffffff;
+  background-color: #000382;
+}
+#lbl-documento:focus {
+  color: #ffffff;
+  background-color: #000382;
+}
+#lbl-descripcion:focus {
+  color: #ffffff;
+  background-color: #000382;
+}
+#lbl-telefono:focus {
+  color: #ffffff;
+  background-color: #000382;
+}
+#lbl-email:focus {
+  color: #ffffff;
+  background-color: #000382;
+}
+.novedades {
+  margin: 10px;
+  text-align: center;
+}
+.acepto {
+  margin: 10px;
+  text-align: center;
+}
+.lbl-email {
+  text-align: center;
+}
